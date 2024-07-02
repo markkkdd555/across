@@ -1,19 +1,25 @@
 {
-  "inbounds": [{
+  "inbounds": [
+  {
     "port": 9000,
     "protocol": "vmess",
     "settings": {
       "clients": [
         {
-          "id": "1eb6e917-774b-4a84-aff6-b058577c60a5",
-          "level": 1,
+          "id": "ba651c8c-cb35-4c46-bf6c-f90bd6f094e3",
           "alterId": 64
         }
       ]
+    },
+    "streamSettings": {
+      "network": "ws"
     }
-  }],
-  "outbounds": [{
+  }
+  ],
+  "outbounds": [
+  {
     "protocol": "freedom",
     "settings": {}
-  }]
+  }
+  ]
 }
